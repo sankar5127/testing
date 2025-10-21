@@ -8,7 +8,7 @@ import Users from "./components/Users";
 
 
 function App() {
-
+const [name,setName] = useState("sankar");
   return (
     <div className="App" >
       <Provider store={store}>

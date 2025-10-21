@@ -9,6 +9,7 @@ import Users from "./components/Users";
 
 function App() {
 const [name,setName] = useState("sankar");
+const [email,setEmail] = useState("sankar@gmail.com");
   return (
     <div className="App" >
       <Provider store={store}>
